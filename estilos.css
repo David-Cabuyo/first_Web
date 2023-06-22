@@ -1,0 +1,107 @@
+*::after,
+*::before,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.icono{
+    height: 40px;
+    width: 40px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor-items{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.item{
+    border-radius: 25px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.40);
+}
+
+.item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* no me funciona el hidden
+.item figure{
+    overflow: hidden;
+}
+.item:hover{
+    transform: scale(1.1)
+}
+*/
+
+.info-producto{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info-producto button{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 15px 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-top: 30px;
+}

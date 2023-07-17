@@ -14,6 +14,35 @@ header{
     
 }
 
+
+a{
+    color: black;
+    font-size: 20px;
+}
+
+.div ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	padding-right: 20px;
+}
+
+div ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+
+div ul li a{
+    display: inline;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+div ul li a:hover{
+    background-color: blue;
+    color: white
+}
+
 body{
     margin: 0;
     height: 100%;
